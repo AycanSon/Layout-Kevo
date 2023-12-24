@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  color: white;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+nav {
+  display: flex;
+  padding: 1rem;
+}
+
+.all {
+  border: 1px solid white;
+  border-radius: 40%;
+  padding: 5px;
+}
+
+.playlist-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  padding: 2.5px;
+}
+
+.playlist {
+  display: flex;
+  background-color: rgb(40, 40, 40);
+  width: 22vh;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.music {
+  border: 1px solid white;
+  border-radius: 40%;
+  padding: 5px;
+}
+
+.podcasts {
+  border: 1px solid white;
+  border-radius: 40%;
+  padding: 5px;
+}
+
+#account {
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  padding: 0.9rem;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 2rem;
+}
+
+@media only screen and (min-width: 330px) and (max-width: 430px) {
+  body {
+    background-color: rgb(18, 18, 18);
+  }
+}
