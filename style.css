@@ -13,15 +13,64 @@ h1 {
   font-size: 1.5rem;
 }
 
+h3 {
+  font-size: 1.3rem;
+}
+
 nav {
   display: flex;
   padding: 1rem;
+  gap: 15px;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 2rem;
+}
+
+#account {
+  color: black;
+  font-weight: bolder;
+  background-color: rgb(206, 73, 96);
+  border-radius: 50%;
+  font-size: 1.9rem;
+  padding: 1rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .all {
-  border: 1px solid white;
-  border-radius: 40%;
-  padding: 5px;
+  color: black;
+  border-radius: 45%;
+  padding: 15px;
+  background-color: rgb(4, 163, 65);
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.music {
+  border-radius: 45%;
+  padding: 15px;
+  background-color: rgb(40, 40, 40);
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.podcasts {
+  border-radius: 45%;
+  padding: 15px;
+  background-color: rgb(40, 40, 40);
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .playlist-header {
@@ -30,6 +79,7 @@ nav {
   justify-content: center;
   gap: 6px;
   padding: 2.5px;
+  padding-top: 10px;
 }
 
 .playlist {
@@ -38,33 +88,37 @@ nav {
   width: 22vh;
 }
 
+.your-playlists {
+  padding: 2rem;
+  padding-top: 3.5rem;
+}
+
+.playlists-titles {
+  padding-top: 1.5rem;
+  display: flex;
+  overflow: scroll;
+  gap: 2rem;
+}
+
+.playlists-titles h3 {
+  color: rgb(116, 116, 116);
+}
+
+.desc {
+  padding-top: 0.9rem;
+}
+
+.your-playlists h1 {
+  font-size: 2.5rem;
+}
+
+.playlist h2 {
+  padding-left: 1rem;
+}
+
 .title {
   display: flex;
   align-items: center;
-}
-
-.music {
-  border: 1px solid white;
-  border-radius: 40%;
-  padding: 5px;
-}
-
-.podcasts {
-  border: 1px solid white;
-  border-radius: 40%;
-  padding: 5px;
-}
-
-#account {
-  border: 1px solid white;
-  border-radius: 50%;
-  font-size: 1.5rem;
-  padding: 0.9rem;
-}
-
-.nav-bar {
-  display: flex;
-  gap: 2rem;
 }
 
 @media only screen and (min-width: 330px) and (max-width: 430px) {
